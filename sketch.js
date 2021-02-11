@@ -1,4 +1,3 @@
-
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -52,6 +51,3 @@ function keyPressed(){
 	  Matter.Body.applyForce(bobObject1.body,bobObject1.body.position,{x:-80,y:-80});
 	}
   }
-
-
-
